@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  list-style-type: none;
+  float: left;
+}
+
+.li {
+  margin-right: 10px;
+}
+
+.card {
+  display: grid;
+  grid-column: 150px;
+  width: 18rem;
+}
+
+.podcast-card-image {
+  width: 150px; /* Adjust width as needed */
+  height: auto;
+  border-radius: inherit; /* Inherit rounded corners from card */
+}
