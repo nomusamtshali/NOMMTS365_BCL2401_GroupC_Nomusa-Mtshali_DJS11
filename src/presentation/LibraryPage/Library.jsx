@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchPodcasts } from "../../services/api";
 import { Link, useSearchParams } from "react-router-dom";
-import { genreInfo } from "../../services/genres";
+import { genreInfo } from "../../services/genres.js";
 import "./Library.css";
 
 export const Library = () => {
