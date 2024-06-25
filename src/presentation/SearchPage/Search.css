@@ -1,0 +1,47 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.results-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+.podcasts-card {
+  position: relative;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 200px;
+  overflow: hidden;
+}
+
+.podcasts-card h2 {
+  margin: 0;
+  font-size: 18px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+

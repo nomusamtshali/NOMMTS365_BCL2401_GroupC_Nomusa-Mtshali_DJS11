@@ -1,0 +1,33 @@
+.favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .favorite-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .favorite-details {
+    padding: 16px;
+  }
+  
+  .favorite-details h3 {
+    margin: 0 0 8px;
+  }
+  
+  .favorite-details button {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
